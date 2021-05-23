@@ -26,7 +26,7 @@
 | user       | references | null: false, foreign_key: true |
 
 ### Association
-- belongs_to :users
+- belongs_to :user
 - has_many :comments
 
 
@@ -39,5 +39,5 @@
 | prototype | references | null: false, foreign_key: true |
 
 ### Association
-- belongs_to :users
-- belongs_to :prototypes
+- belongs_to :user
+- belongs_to :prototype
