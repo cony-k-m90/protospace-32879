@@ -5,6 +5,9 @@ class PrototypesController < ApplicationController
     @prototypes = Prototype.includes(:user)
     @prototype = Prototype.all
   end
+<<<<<<< Updated upstream
+end
+=======
 
   #newアクションにインスタンス変数@prototypeを定義し、Prototypeモデルの
   #新規オブジェクトを代入
@@ -60,3 +63,4 @@ class PrototypesController < ApplicationController
     @prototype = Prototype.find(params[:id])
   end
 end
+>>>>>>> Stashed changes
